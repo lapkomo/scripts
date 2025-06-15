@@ -22,11 +22,12 @@ const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     button.style.zIndex = 9999;
     button.style.padding = '10px 20px';
     button.style.fontSize = '16px';
-    button.style.background = '#1da1f2';
+    button.style.background = '#000';
     button.style.color = '#fff';
     button.style.border = 'none';
     button.style.borderRadius = '5px';
     button.style.cursor = 'pointer';
+    button.style.boxShadow = 'rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px';
     document.body.appendChild(button);
 
     // Scan the DOM for images
